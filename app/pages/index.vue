@@ -8,5 +8,6 @@ definePageMeta({
 <template>
   <div>
     <Hero />
+    <SocialProof />
   </div>
 </template>
