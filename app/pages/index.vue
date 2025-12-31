@@ -1,6 +1,19 @@
+
+<script setup lang="ts">
+import { S } from 'vue-router/dist/router-CWoNjPRp.mjs';
+
+definePageMeta({
+  layout: 'default',
+})
+</script>
+
 <template>
-    <div>
-        <h1>Welcome to the Home Page</h1>
-        <p>This is the main landing page of the application.</p>
-    </div>
+  <div>
+    <Hero />
+    <SocialProof />
+    <SpeakerSection />
+    <SupportSection />
+    <CoreTeam/>
+    <Footer />
+  </div>
 </template>
