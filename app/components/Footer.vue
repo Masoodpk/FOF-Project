@@ -136,7 +136,7 @@ const footerIcon = '/logos/footer.png'
           <img
             :src="badgeImage"
             alt="Award badge"
-            class="h-40 hidden md:block"
+            class="md:h-50 lg:h-70 hidden md:block"
           />
         </div>
       </div>
