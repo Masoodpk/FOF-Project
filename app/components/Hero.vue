@@ -14,12 +14,17 @@
 
       <!-- Main heading -->
       <h1
-        class="font-serif text-4xl md:text-6xl lg:text-[4.5rem] leading-tight tracking-tight"
+        class="hidden sm:block font-serif text-4xl md:text-6xl lg:text-[4.5rem] leading-tight tracking-tight"
       >
         Figma’s official<br />
         kozhikode chapter
       </h1>
-
+ <h1
+        class="sm:hidden font-serif text-4xl md:text-6xl lg:text-[4.5rem] leading-tight tracking-tight"
+      >
+        Figma’s official<br />
+        kozhikode <br> chapter
+      </h1>
       <!-- Subheading -->
       <p
         class="mt-6 text-base md:text-lg text-neutral-700 tracking-tight"
