@@ -200,6 +200,3 @@ const footerIcon = '/logos/footer.png'
     </div>
   </footer>
 </template>
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-</style>
