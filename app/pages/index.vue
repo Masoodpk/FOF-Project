@@ -1,6 +1,5 @@
 
 <script setup lang="ts">
-import { S } from 'vue-router/dist/router-CWoNjPRp.mjs';
 
 definePageMeta({
   layout: 'default',
