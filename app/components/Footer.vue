@@ -145,12 +145,14 @@ const footerIcon = '/logos/footer.png'
            BIG JOIN US TEXT
       ====================== -->
       <div class="mb-10 overflow-hidden">
-        <h2
-          class="font-serif text-[64px]
-                 sm:text-[88px] md:text-[140px]"
-        >
-          join us
-        </h2>
+      <h2
+  class="text-[80px] sm:text-[88px] md:text-[140px]
+         italic ml-3 md:ml-4"
+  style="font-family: 'Instrument Serif', 'Playfair Display', serif;"
+>
+  join us
+</h2>
+
       </div>
 
       <!-- =====================
@@ -198,3 +200,6 @@ const footerIcon = '/logos/footer.png'
     </div>
   </footer>
 </template>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+</style>
