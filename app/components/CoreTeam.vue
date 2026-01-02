@@ -1,8 +1,8 @@
 <script setup lang="ts">
 const coreTeam = [
-  { image: '/images/speaker1.png'},
-  { image: '/images/speaker2.png'},
-  { image: '/images/speaker3.png'},
+  { image: '/images/lead1.png'},
+  { image: '/images/lead2.png'},
+  { image: '/images/lead3.png'},
 ]
 </script>
 
@@ -38,13 +38,13 @@ const coreTeam = [
   <div
     v-for="(member, index) in coreTeam"
     :key="index"
-    class="relative aspect-[5/5] md:aspect-[3/4]
+    class="relative
            overflow-hidden rounded-xl bg-neutral-900 md:rounded-2xl"
   >
     <img
       :src="member.image"
       :alt="member.name"
-      class="h-full w-full object-cover"
+      class="h-full w-full object-contain"
     />
 
     <!-- NAME + ROLE -->
