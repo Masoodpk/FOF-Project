@@ -13,6 +13,7 @@ definePageMeta({
     <SpeakerSection />
     <SupportSection />
     <CoreTeam/>
+    <DesignSection />
     <Footer />
   </div>
 </template>
