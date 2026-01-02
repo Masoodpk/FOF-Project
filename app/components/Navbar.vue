@@ -1,40 +1,58 @@
 <script setup lang="ts">
-    import { Button } from '@/components/ui/button'
+// import LiquidGlassEffect from '@/components/ui/LiquidGlassEffect.vue'
 </script>
+
 <template>
-  <div class="md:px-4 bg-white text-black flex flex-col">
-    <!-- Navbar -->
-    <header class="w-full">
-      <nav class="max-w-7xl mx-auto flex  items-center justify-between py-6 px-4 md:px-0">
-        <!-- Left: Logo -->
-        <NuxtLink to="/" class="flex items-center gap-2">
+  <!-- Sticky full-width wrapper -->
+  <div class="sticky top-4 z-50 w-full">
+    <!-- Liquid glass FULL WIDTH -->
+    <LiquidGlassEffect
+      :radius="0"
+      :blur="12"
+      :frost="0.12"
+      :alpha="0.9"
+      class="w-full"
+      container-class="pointer-events-auto"
+    >
+      <!-- INNER CONTAINER -->
+      <div class="mx-auto max-w-7xl px-4">
+        <nav
+          class="flex items-center justify-between
+                 py-4 text-black"
+        >
+          <!-- Logo -->
+          <NuxtLink to="/" class="flex items-center gap-2">
+            <img
+              src="/logos/fof-logo.png"
+              class="h-10 w-10 object-contain"
+              alt="FoF"
+            />
+            <span class="text-lg md:text-xl font-medium" >
+              FoF Kozhikode
+            </span>
+          </NuxtLink>
 
-          <img
-            src="/logos/fof-logo.png"
-            alt="FoF Kozhikode logo"
-            class="h-11 w-11 object-contain"
-          />
-          <span class="text-lg md:text-2xl tracking-tight">
-            FoF Kozhikode
-          </span>
-        </NuxtLink>
+          <!-- Actions -->
+          <div class="flex items-center gap-3">
+            <button
+              class="hidden md:block rounded-lg
+                     border border-black/20
+                     px-5 py-2 text-sm
+                     backdrop-blur-md"
+            >
+              Connect with us
+            </button>
 
-        <!-- Right: Buttons -->
-        <div class="flex items-center gap-3">
-          <button
-            type="button"
-            class="hidden md:block rounded-lg border cursor-pointer hover:bg-white border-black bg-white px-5 py-2 text-sm text-black md:text-base font-medium tracking-tight"
-          >
-            Connect with us
-          </button>
-          <button
-            type="button"
-            class="rounded-lg bg-black cursor-pointer md:h-10.5 text-white px-10 py-2 text-sm md:text-base font-medium tracking-tight hover:bg-neutral-900 transition-colors"
-          >
-            Join Us
-          </button>
-        </div>
-      </nav>
-    </header>
+            <button
+              class="rounded-lg bg-black text-white
+                     px-8 py-2 text-sm
+                     hover:bg-neutral-900 transition"
+            >
+              Join Us
+            </button>
+          </div>
+        </nav>
+      </div>
+    </LiquidGlassEffect>
   </div>
 </template>
