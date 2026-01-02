@@ -3,7 +3,7 @@
   <section class="w-full">
     <!-- Hero container -->
     <div
-      class="max-w-7xl mx-auto flex flex-col items-center text-center px-4"
+      class="max-w-7xl mx-auto flex flex-col items-center text-center px-4 pt-4 md:pt-12"
     >
       <!-- Optional hero image at top (dummy) -->
       <!-- <img
