@@ -4,7 +4,10 @@
 
 <template>
   <!-- Sticky full-width wrapper -->
-  <div class="sticky top-0 z-50 w-full">
+<div class="fixed top-[env(safe-area-inset-top)] z-50 w-full">
+
+
+
     <!-- Liquid glass FULL WIDTH -->
     <LiquidGlassEffect
       :radius="0"

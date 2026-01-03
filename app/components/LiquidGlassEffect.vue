@@ -227,7 +227,9 @@ onUnmounted(() => {
   opacity: 1;
   /* border-radius: inherit; */
   backdrop-filter: url(#displacementFilter);
+  -webkit-backdrop-filter: url(#displacementFilter);
   background: light-dark(hsl(0 0% 100% / var(--frost, 0)), hsl(0 0% 0% / var(--frost, 0)));
+  
   box-shadow:
     0 0 2px 1px
       light-dark(
