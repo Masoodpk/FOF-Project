@@ -4,7 +4,7 @@
 
 <template>
   <!-- Sticky full-width wrapper -->
-<div class="fixed top-[env(safe-area-inset-top)] z-50 w-full">
+<div class="fixed top-0 z-50 w-full">
 
 
 

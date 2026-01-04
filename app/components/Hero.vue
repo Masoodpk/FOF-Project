@@ -1,6 +1,6 @@
 <!-- pages/index.vue -->
 <template>
-  <section class="w-full mt-22">
+  <section class="w-full pt-30">
     <!-- Hero container -->
     <div
       class="max-w-7xl mx-auto flex flex-col items-center text-center px-4 pt-4 md:pt-12"
